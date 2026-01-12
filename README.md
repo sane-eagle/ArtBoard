@@ -1,4 +1,4 @@
-# SketchLab 🎨
+# ArtLab 🎨
 
 SketchLab is a collaborative online sketching tool that allows users to create and share drawings in real time. Built with Next.js and Express, the application supports a variety of tools and features such as pencil drawing, eraser, undo/redo actions, and image download.
 
