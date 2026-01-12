@@ -1,6 +1,6 @@
 # ArtLab 🎨
 
-SketchLab is a collaborative online sketching tool that allows users to create and share drawings in real time. Built with Next.js and Express, the application supports a variety of tools and features such as pencil drawing, eraser, undo/redo actions, and image download.
+ArtLab is a collaborative online sketching tool that allows users to create and share drawings in real time. Built with Next.js and Express, the application supports a variety of tools and features such as pencil drawing, eraser, undo/redo actions, and image download.
 
 ## Features
 
@@ -18,8 +18,7 @@ SketchLab is a collaborative online sketching tool that allows users to create a
 
 ## Tech Stack
 
-- **Frontend:** Next.js, React, TypeScript
-- **Backend:** Express.js
+- **Frontend:** Next.js, React, TypeScript, Express.js
 - **State Management:** Redux
 - **Real-time Communication:** Socket.IO
 - **Styling:** CSS Modules
@@ -88,14 +87,12 @@ Follow these steps to get the project up and running:
 
 - **Node.js** (v16 or higher) installed on your machine.
 - **npm** or **yarn** for managing dependencies.
-- **Backend Server**: The backend for this project is hosted separately. You need to set up the backend server to handle socket connections. You can find the backend repository here:  
-  [SketchLab Backend Repository](https://github.com/aviralsharma07/sketchlab-backend)
 
-### Steps for Frontend Setup
+### Steps for Setup
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/sketchlab-frontend.git
+   git clone https://github.com/sane-eagle/sketchlab-frontend.git
    cd sketchlab-frontend
    ```
 2. **Install Dependencies**:
@@ -104,30 +101,11 @@ Follow these steps to get the project up and running:
     npm install
    ```
 
-3. **Set up the socket connection**:
-
-   - Open the `lib/socket.ts` file.
-   - Update the `socket` connection URL to point to your backend server.
-     ```javascript
-     const URL = process.env.NODE_ENV === "production" ? <YOUR BACKEND SERVER URL> : "http://localhost:5000";
-     ```
-
-4. **Set Up CORS on the Backend**:
-
-   - If your backend server is running on a different domain, make sure to enable CORS.
-   - Add the frontend URL to the list of allowed origins in the backend server configuration.
-
-5. **Start the Development Server**:
-
-- FOR FRONTEND:
+3. **Start the Development Server**:
 
   ```bash
   npm run dev
   ```
-
-- FOR BACKEND: [SketchLab Backend Repository](https://github.com/aviralsharma07/sketchlab-backend)
-
----
 
 ## Usage
 
@@ -145,15 +123,3 @@ Follow these steps to get the project up and running:
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
----
-
-## Author
-
-- **LinkedIn** - [aviral07](https://www.linkedin.com/in/aviral07/)
-- **Twitter** - [\_aviral07](https://twitter.com/_aviral07)
-- **Github** - [aviralsharma07](https://github.com/aviralsharma07)
-- **Resume** - [Resume](https://flowcv.com/resume/20ntf1waah)
