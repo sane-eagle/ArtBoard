@@ -4,7 +4,7 @@ import { actionItemClick } from "@/lib/redux/menuSlice";
 import { ReduxState, ToolItem } from "@/lib/redux/types";
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { socket } from "@/lib/socket";
+import { getSocket } from "@/lib/socket";
 
 const Board = () => {
   const dispatch = useDispatch();
