@@ -5,7 +5,7 @@ import { COLORS, MENU_ITEMS } from "@/lib/constants";
 import { ReduxState } from "@/lib/redux/types";
 import { changeBrushSize, changeColor } from "@/lib/redux/toolboxSlice";
 import cx from "classnames";
-import { socket } from "@/lib/socket";
+import { getSocket } from "@/lib/socket";
 
 const Toolbox = () => {
   const dispatch = useDispatch();
