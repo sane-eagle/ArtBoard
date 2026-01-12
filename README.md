@@ -92,8 +92,8 @@ Follow these steps to get the project up and running:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/sane-eagle/sketchlab-frontend.git
-   cd sketchlab-frontend
+   git clone https://github.com/sane-eagle/ArtLab.git
+   cd ArtLab
    ```
 2. **Install Dependencies**:
 
