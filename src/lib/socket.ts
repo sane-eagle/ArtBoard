@@ -1,5 +1,9 @@
-import { io } from "socket.io-client";
+import { io, Socket } from "socket.io-client";
 
-const URL = process.env.NODE_ENV === "production" ? "https://sketchlab-server.onrender.com" : "http://localhost:5000";
+let socket: Socket | null = null;
 
-export const socket = io(URL);
+export const getSocket = () => {
+  if (typeof window === "undefined") return null;
+
+  return null;
+};
